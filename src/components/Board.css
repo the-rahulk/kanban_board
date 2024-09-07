@@ -1,0 +1,55 @@
+.App {
+    font-family: Arial, sans-serif;
+  }
+  
+  .controls {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .controls-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .task-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  input[type="text"] {
+    padding: 5px;
+  }
+  
+  button:disabled {
+    background-color: #ddd;
+  }
+  
+  .board {
+    background-color: white;
+    padding: 20px;
+  }
+  
+  .board-container {
+    text-align: center;
+  }
+  
+  .stage {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    width: 200px;
+    vertical-align: top;
+  }
+  
+  .task {
+    border: 1px solid #aaa;
+    padding: 10px;
+    margin: 5px 0;
+    cursor: pointer;
+  }
+  
